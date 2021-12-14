@@ -1,0 +1,18 @@
+[package]
+name = "tinymd"
+version = "0.1.0"
+authors = ["Haozhan Shi <jackson21182@gmail.com>"]
+edition = "2021"
+description = "A tiny markdown compiler based on Jesse's tutorials."
+homepage = "https://jacksonshi.com"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+tokio = {version="1.13.0", features=["full"]}
+
+[profile.release]
+debug = 1
+
+[rust]
+debuginfo-level = 1
