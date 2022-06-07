@@ -9,7 +9,7 @@ homepage = "https://jacksonshi.com"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-tokio = {version="1.13.0", features=["full"]}
+tokio = {version="1.13.1", features=["full"]}
 
 [profile.release]
 debug = 1
